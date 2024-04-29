@@ -1,0 +1,18 @@
+// script.js
+const darkModeToggle = document.Selector('#dark-mode-toggle');
+const body = document.Selector('body');
+
+darkModeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+});
+
+projectImages.forEach(image => {
+    image.addEventListener('click', () => {
+        modal.style.display = 'block';
+    });
+});
+
+closeModalBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+ 
